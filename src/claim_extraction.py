@@ -17,7 +17,7 @@ MODELS = {
     "🇬🇧 T5-small (BBC)": "ctu-aic/t5-small-feversum",
     "🇬🇧 T5-large (CNN)": "ctu-aic/t5-large-feversum",
     # "🇬🇧 Pegasus (BBC)": "/home/ullriher/ullriher/models/promising/t5-large-finetuned-xsum-cnn_feversum3_text2claim_bs2_ep30",
-    "🇸🇰 mT5 (SlovakSum)": "ctu-aic/mt5-slovaksum",
+    "🇸🇰 mT5 (SlovakSum)": "kiviki/mt5-slovaksum",
 }
 
 
