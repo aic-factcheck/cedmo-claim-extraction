@@ -16,8 +16,9 @@ MODELS = {
     "🇨🇿 MBart": "ctu-aic/mbart25-large-eos",
     "🇬🇧 T5-small (BBC)": "ctu-aic/t5-small-feversum",
     "🇬🇧 T5-large (CNN)": "ctu-aic/t5-large-feversum",
+    "🇸🇰 mBART (CNC, SMESum)": "ctu-aic/mbart25-large-eos-cnc-smesum",
+    "🇸🇰 mT5 (SumeCzech, SMESum)": "ctu-aic/mt5-base-multilingual-summarization-multilarge-cs-smesum",
     # "🇬🇧 Pegasus (BBC)": "/home/ullriher/ullriher/models/promising/t5-large-finetuned-xsum-cnn_feversum3_text2claim_bs2_ep30",
-    "🇸🇰 mT5 (SlovakSum)": "kiviki/mt5-slovaksum",
 }
 
 
@@ -65,6 +66,7 @@ def process(input, summarizer, claims=1, k=1, min_length=10, max_length=40):
 
 
 LONG_TEXT = "Prodej živých delfínů se řídí dohodou o mezinárodním obchodu s ohroženými druhy, která zakazuje podobné transakce, pokud by mohly zvířatům uškodit. Šalamounovy ostrovy, ležící asi 1800 kilometrů severovýchodně od Austrálie, nicméně dohodu nepodepsaly. Území je v současné době zmítáno politickou krizí a etnickými násilnostmi, kvůli nimž sem byli tento týden vysláni australští vojáci. Ekologové viní mexické podnikatele, že krize na Šalamounových ostrovech zneužili."
+
 
 class MyInterface(gr.Interface):
     def __init__(self):
