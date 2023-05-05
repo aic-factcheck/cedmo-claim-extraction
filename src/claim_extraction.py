@@ -17,7 +17,7 @@ MODELS = {
     "🇬🇧 T5-small (BBC)": "ctu-aic/t5-small-feversum",
     "🇬🇧 T5-large (CNN)": "ctu-aic/t5-large-feversum",
     "🇸🇰 mBART (CNC, SMESum)": "ctu-aic/mbart25-large-eos-cnc-smesum",
-    "🇸🇰 mT5 (SumeCzech, SMESum)": "ctu-aic/mt5-base-multilingual-summarization-multilarge-cs-smesum",
+    "🇸🇰 mBART (SumeCzech, CNC, SMESum)": "ctu-aic/mbart-at2h-cs-smesum-2",
     # "🇬🇧 Pegasus (BBC)": "/home/ullriher/ullriher/models/promising/t5-large-finetuned-xsum-cnn_feversum3_text2claim_bs2_ep30",
 }
 
